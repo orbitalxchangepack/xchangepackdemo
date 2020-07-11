@@ -1,0 +1,24 @@
+.footer {
+  color: #5e6d8a;
+  background-color: #f7f7f7ff;
+  position: relative;
+  padding-top: 1.5rem;
+  bottom: 0;
+}
+
+.footer__content {
+  height: 6rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer__text p {
+  text-align: center;
+}
+
+.footer__image img {
+  display: inline;
+  width: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.75rem;
+}
