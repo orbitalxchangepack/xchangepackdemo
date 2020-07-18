@@ -30,6 +30,7 @@ import UTAustin from "./components/SchoolReviews/United States/UTAustin/UTAustin
 import NYU from "./components/SchoolReviews/United States/NYU/NYU";
 
 import AppAsk from "./AppAsk";
+const port = process.env.PORT || 3000;
 
 class App extends Component {
   render() {
@@ -84,3 +85,7 @@ class App extends Component {
 }
 
 export default App;
+
+App.listen(port, () => {
+  console.log("Server is up on port" + port);
+});

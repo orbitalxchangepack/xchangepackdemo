@@ -8,7 +8,7 @@ const config = require("./config");
 
 mongoose.connect(config.mongoUri, {
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 });
 mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
 
@@ -28,5 +28,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "client/public/index.html"));
 });
 
-const PORT = 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
+  console.log("Server is up on port" + port);
+});
