@@ -1,0 +1,12 @@
+.Heading {
+  padding-top: 10px;
+  text-align: center;
+  color: #769db1;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

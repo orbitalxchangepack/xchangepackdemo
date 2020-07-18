@@ -6,12 +6,7 @@ const UserSchema = new Schema({
     name: String,
     email: String,
     password: String,
-    createdAt: {
-        default: Date.now(),
-        type: Date
-},
-
-    role: String,
+    createdAt: Date
 });
 
 UserSchema.pre('save', async function(next) {

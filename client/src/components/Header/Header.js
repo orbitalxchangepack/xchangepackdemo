@@ -20,7 +20,7 @@ export default class header extends Component {
               </NavLink>
             </li>
             <li className="link__wrapper">
-              <NavLink exact activeClassName="active" to="/SchoolReviews">
+              <NavLink activeClassName="active" to="/SchoolReviews">
                 School Reviews
               </NavLink>
             </li>

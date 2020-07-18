@@ -1,0 +1,57 @@
+.subtitle_left {
+  color: #769db1;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.subtitle_center {
+  text-align: center;
+  color: #769db1;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.subsubtitle_center {
+  text-align: center;
+  color: #769db1;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #769db1;
+  font-weight: 400;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.detail_location {
+  padding-top: 10px;
+  float: left;
+  color: #769db1;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.detail_semester {
+  padding-top: 10px;
+  text-align: right;
+  color: #769db1;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.author {
+  text-align: center;
+  color: gray;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.content {
+  text-align: justify;
+}
+
+.content_center {
+  text-align: center;
+}

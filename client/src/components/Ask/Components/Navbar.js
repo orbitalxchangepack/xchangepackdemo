@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
-import AppContext from "../../Contexts/AppContext";
+import AuthContext from "../Contexts/AuthContext";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
+import Button from "@material-ui/core/Button";
+import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -20,10 +22,16 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function MenuAppBar() {
-  const { user } = useContext(AppContext);
+  const history = useHistory();
+  const { user, handleLogout } = useContext(AuthContext);
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
+
+  const logout = () => {
+    handleClose();
+    handleLogout();
+  };
 
   const handleMenu = event => {
     setAnchorEl(event.currentTarget);
@@ -33,12 +41,22 @@ export default function MenuAppBar() {
     setAnchorEl(null);
   };
 
-  eturn(
+  const handleLogin = () => {
+    handleClose();
+    history.push("/auth/login");
+  };
+
+  const handleRegister = () => {
+    handleClose();
+    history.push("/auth/register");
+  };
+
+  return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Node React Forum
+            Exchange Pack Ask!
           </Typography>
           <Button color="inherit" onClick={() => history.push("/category")}>
             Categories
