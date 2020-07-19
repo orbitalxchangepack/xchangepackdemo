@@ -1,4 +1,5 @@
 import SchoolReviews from "../../SchoolReviews";
+import Emoji from "../../Emoji";
 import React, { Component } from "react";
 import { Grid, Container, Image } from "semantic-ui-react";
 import "../../SchoolContent.css";
@@ -48,17 +49,20 @@ class Washington extends Component {
                       Seattle so that was pretty hilarious. So take note ya!
                       Won’t wanna be planning your entire exchange thinking that
                       you’ll be in the east coast then end up all the way at the
-                      other side of America 😛 If you’ve never been to the
-                      states, it’s huge! takes about 6 hours by plane from one
-                      coast to the other so getting your school location right
-                      would be a good place to start your research/ exchange
-                      planning. 😀 Ah if you’re wondering where “Seattle” popped
-                      up from, that’s the city that UW is located in (and
-                      basically your exchange “home” where you’ll be in most of
-                      the time, or not, depending on how much travelling you’re
-                      going to do HAHA) So UW’s in Seattle, which is in
-                      Washington state, in the U.S., hehe now that we got that
-                      settled, let’s dive into the school itself!
+                      other side of America
+                      <Emoji symbol="😛" label="sticking tough out face" /> If
+                      you’ve never been to the states, it’s huge! takes about 6
+                      hours by plane from one coast to the other so getting your
+                      school location right would be a good place to start your
+                      research/ exchange planning.{" "}
+                      <Emoji symbol="🙂" label="smiley face" /> Ah if you’re
+                      wondering where “Seattle” popped up from, that’s the city
+                      that UW is located in (and basically your exchange “home”
+                      where you’ll be in most of the time, or not, depending on
+                      how much travelling you’re going to do HAHA) So UW’s in
+                      Seattle, which is in Washington state, in the U.S., hehe
+                      now that we got that settled, let’s dive into the school
+                      itself!
                     </p>
                   </Grid.Row>
                 </Grid.Row>
@@ -219,7 +223,8 @@ class Washington extends Component {
                       wasn’t a small sum, around 2k sgd if I remember correctly
                       to get additional credits enough to map 5 modules. So if
                       this really affects your academic plan, you may have to
-                      reconsider coming here (but it would be such a shame 🙁
+                      reconsider coming here (but it would be such a shame
+                      <Emoji symbol="🙁" label="sad face" />
                       because UW is really so pretty and seattle too! Honestly,
                       one of the prettiest, if not the prettiest campus I have
                       been to. They have a library that looks like it was from
@@ -305,7 +310,8 @@ class Washington extends Component {
                       time) but shop smart! make use of places with low to zero
                       taxes and deals like Black Friday!!! Thus in general, yes
                       cost of living is high but I guess it sort of compensates
-                      by savings you can get elsewhere? 😛
+                      by savings you can get elsewhere?{" "}
+                      <Emoji symbol="😛" label="sticking tough out face" />
                     </p>
                   </Grid.Column>
                 </Grid.Row>
@@ -359,7 +365,8 @@ class Washington extends Component {
                           yourself in the academic hustle by joining investment
                           /consulting clubs or experience the uniquely American
                           party culture, the options are endless! Just remember
-                          to keep an open mind and all the best !! 🙂
+                          to keep an open mind and all the best !!
+                          <Emoji symbol="🙂" label="smiley face" />
                         </p>
                       </Grid.Row>
                       <Grid.Row>

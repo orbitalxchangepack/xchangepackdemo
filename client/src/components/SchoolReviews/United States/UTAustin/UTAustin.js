@@ -1,4 +1,5 @@
 import SchoolReviews from "../../SchoolReviews";
+import Emoji from "../../Emoji";
 import React, { Component } from "react";
 import { Grid, Container } from "semantic-ui-react";
 import "../../SchoolContent.css";
@@ -80,7 +81,8 @@ class UTAustin extends Component {
                     <h2 className="subtitle_left">Cost of Living</h2>
                     <p className="content">
                       Groceries are affordable, so I usually cook and eat at
-                      home! Eating out is expensive 🙁
+                      home! Eating out is expensive{" "}
+                      <Emoji symbol="🙁" label="sad face" />
                     </p>
                   </Grid.Column>
                 </Grid.Row>

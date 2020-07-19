@@ -7,6 +7,14 @@
 }
 
 .card {
-  padding-top: 20px;
+  padding-top: 2%;
   padding-bottom: 20px;
+}
+
+.content_about {
+  text-align: center;
+  color: #769db1;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
 }

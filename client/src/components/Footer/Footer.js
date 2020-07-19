@@ -8,7 +8,10 @@ const footer = (props) => (
         <p>Orbital 2020 | Charmaine and Chandya</p>
       </div>
       <div className="footer__image">
-        <img src={process.env.PUBLIC_URL + "/XCPplane.png"}></img>
+        <img
+          src={process.env.PUBLIC_URL + "/XCPplane.png"}
+          alt="plane logo"
+        ></img>
       </div>
     </div>
   </footer>

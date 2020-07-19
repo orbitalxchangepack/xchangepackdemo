@@ -1,4 +1,5 @@
 import SchoolReviews from "../../SchoolReviews";
+import Emoji from "../../Emoji";
 import React, { Component } from "react";
 import { Grid, Container } from "semantic-ui-react";
 import "../../SchoolContent.css";
@@ -41,10 +42,10 @@ class Sydney extends Component {
                       join in school and they are super affordable – it was only
                       $5 for membership, so you can pick up a new skill without
                       worrying about embarrassing yourself since you will never
-                      see them again 🙂 There are also always events going
-                      around in school if you are up for it. (My friend did yoga
-                      with goats in the school courtyard and it still amuses me
-                      to this day.)
+                      see them again <Emoji symbol="🙂" label="smiley face" />
+                      There are also always events going around in school if you
+                      are up for it. (My friend did yoga with goats in the
+                      school courtyard and it still amuses me to this day.)
                     </p>
                     <p className="content">
                       The students are generally all very friendly, albeit more
@@ -183,7 +184,8 @@ class Sydney extends Component {
                       call home. So if you love nature but need the convenience
                       of being in the city, can’t stand harsh weathers and
                       desperately need Asian food to survive, Aussie is probably
-                      the choice for you 🙂
+                      the choice for you
+                      <Emoji symbol="🙂" label="smiley face" />
                     </p>
                   </Grid.Column>
                 </Grid.Row>

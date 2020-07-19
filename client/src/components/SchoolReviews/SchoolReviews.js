@@ -7,7 +7,13 @@ import "./SchoolReviews.css";
 class SchoolReviews extends Component {
   render() {
     return (
-      <div style={{ height: "100%", width: "100%", position: "relative" }}>
+      <div
+        style={{
+          height: "100%",
+          width: "100%",
+          position: "relative",
+        }}
+      >
         <Sidenav style={{ height: "100%" }} defaultOpenKeys={[]} activeKey="1">
           <Sidenav.Body>
             <Nav>

@@ -1,4 +1,5 @@
 import SchoolReviews from "../../SchoolReviews";
+import Emoji from "../../Emoji";
 import React, { Component } from "react";
 import { Grid, Container, Image } from "semantic-ui-react";
 import "../../SchoolContent.css";
@@ -60,7 +61,7 @@ class SouthernCalifornia extends Component {
                           The locals are superrr friendlyyy! Like I personally
                           loved every bits of interaction with the locals there,
                           and they are always giving out compliments so
-                          generously 🙂
+                          generously <Emoji symbol="🙂" label="smiley face" />
                         </p>
                         <p className="content">
                           Is USC a party school? Definitely!! They have all the
@@ -74,7 +75,7 @@ class SouthernCalifornia extends Component {
                           One of my favourite USC events was them paying for our
                           transport to Huntington Dog Beach for Corgi Beach Day,
                           where you get to see and play with all those furry
-                          friends!! 🙂
+                          friends!! <Emoji symbol="🙂" label="smiley face" />
                         </p>
                         <p className="content">
                           It’s a super fun school, and like every other
@@ -107,8 +108,9 @@ class SouthernCalifornia extends Component {
                     <h2 className="subtitle_left">Exam Policies</h2>
                     <p className="content">
                       Usually open-book or cheat-sheet based. Also, most of them
-                      are fully MCQ questions which is honestly a blessing 🙂 I
-                      had most of my exams being 20MCQs for 2 hours HAHAHA.
+                      are fully MCQ questions which is honestly a blessing{" "}
+                      <Emoji symbol="🙂" label="smiley face" /> I had most of my
+                      exams being 20MCQs for 2 hours HAHAHA.
                     </p>
                   </Grid.Column>
                 </Grid.Row>
@@ -210,7 +212,7 @@ class SouthernCalifornia extends Component {
                       apartment sharing my bedroom with 2 other graduate
                       students, and I would say it was not an experience I would
                       want to go through again. Personal space is sometimes
-                      important 🙂
+                      important <Emoji symbol="🙂" label="smiley face" />
                     </p>
                     <p className="content">
                       If you want higher end living conditions, I suggest you
@@ -232,7 +234,7 @@ class SouthernCalifornia extends Component {
                       USC is situated in a relatively dangerous area, so try not
                       to go out alone late in the night. Always be alert of your
                       surroundings and keep up with the news! STAY SAFE AND
-                      ENJOY 🙂
+                      ENJOY <Emoji symbol="🙂" label="smiley face" />
                     </p>
                   </Grid.Column>
                 </Grid.Row>

@@ -1,4 +1,5 @@
 import SchoolReviews from "../../SchoolReviews";
+import Emoji from "../../Emoji";
 import React, { Component } from "react";
 import { Grid, Container, Image } from "semantic-ui-react";
 import "../../SchoolContent.css";
@@ -47,21 +48,22 @@ class Lund extends Component {
                       G: Lund is a relatively small city as compared to other
                       cities (i.e Stockholm, Copenhagen), so it prides itself as
                       a University Town! this generally translates to a more
-                      vibrant and youthful culture 🙂 Locals are vvv friendly &
-                      v willing to help because they’re all around our age haha.
-                      Since there isn’t much to do in Lund, the school has many
-                      activities and CCAs to join and they’re very accepting as
-                      well. You get to join a nation (something like a hall/CCA)
-                      and be part of their weekly activities which includes
-                      brunch events, cooking, sports, clubbing etc and you only
-                      have to pay about $5-10 to join these events. There are
-                      lots of CCAs to choose from as well – i.e. Case Consulting
-                      Clubs, Finance, Marketing, Photography, and they even have
-                      mentoring Clubs. I was in one of the clubs and they were
-                      really very accepting even though I only stayed for a
-                      semester while everyone else in the club had a one year
-                      commitment. I would say its a fine balance between a fun
-                      and study focused school.
+                      vibrant and youthful culture{" "}
+                      <Emoji symbol="🙂" label="smiley face" /> Locals are vvv
+                      friendly & v willing to help because they’re all around
+                      our age haha. Since there isn’t much to do in Lund, the
+                      school has many activities and CCAs to join and they’re
+                      very accepting as well. You get to join a nation
+                      (something like a hall/CCA) and be part of their weekly
+                      activities which includes brunch events, cooking, sports,
+                      clubbing etc and you only have to pay about $5-10 to join
+                      these events. There are lots of CCAs to choose from as
+                      well – i.e. Case Consulting Clubs, Finance, Marketing,
+                      Photography, and they even have mentoring Clubs. I was in
+                      one of the clubs and they were really very accepting even
+                      though I only stayed for a semester while everyone else in
+                      the club had a one year commitment. I would say its a fine
+                      balance between a fun and study focused school.
                     </p>
                     <p className="content">
                       XL: Swedes are generally really friendly, try to learn a
@@ -212,8 +214,9 @@ class Lund extends Component {
                     </h4>
                     <p className="content">
                       G: Am a Marketing student so I mapped mainly marketing
-                      mods! 🙂 But I’ve friends who took entrepreneurship and
-                      MNO mods in Lund as well.
+                      mods! <Emoji symbol="🙂" label="smiley face" /> But I’ve
+                      friends who took entrepreneurship and MNO mods in Lund as
+                      well.
                     </p>
                     <p className="content">
                       XL: I only focused on the marketing ones. I managed to map
@@ -268,8 +271,9 @@ class Lund extends Component {
                     </p>
                     <p className="content">
                       XL: For travelling out of Sweden, you have to take a train
-                      to Copenhagen airport. Train fare is roughly 30 SGD 🙁 so
-                      just take into account you have to add that cost in.
+                      to Copenhagen airport. Train fare is roughly 30 SGD{" "}
+                      <Emoji symbol="🙁" label="sad face" /> so just take into
+                      account you have to add that cost in.
                     </p>
                     <p className="content">
                       J: Lund is located in Malmo, the third largest city in
@@ -295,7 +299,7 @@ class Lund extends Component {
                       in Biz, I would highly recommend staying in Sofieburg
                       because the school is just a 3 min walk away from the
                       hostel and there’s a supermarket 3 mins walk away as well
-                      🙂
+                      <Emoji symbol="🙂" label="smiley face" />
                     </p>
                     <p className="content">
                       FQ: Lund is a really small town so its really easy to go
@@ -331,7 +335,8 @@ class Lund extends Component {
                       XL: Lund is very connected with trains and buses. Download
                       the transport app (skanetrafiken) to make in-app ticket
                       purchase instantly. There is a student fare and group
-                      discounts too! So bring more friends for travels 🙂
+                      discounts too! So bring more friends for travels{" "}
+                      <Emoji symbol="🙂" label="smiley face" />
                     </p>
                     <p className="content">
                       JW: You can walk all around Lund cause it’s literally the
@@ -345,12 +350,13 @@ class Lund extends Component {
                       your bus and train tickets! One good thing is that it has
                       cheaper fares for groups of 3 or more so it’s good if you
                       travel in a group!! Tbh student fare is same as adult fare
-                      so 🙃 Alternatives are probably taxis which are SUPA
-                      expensive in Sweden and biking!!! You can rent a bike as
-                      well but m not too sure about the bike prices. For bikes,
-                      it’s important to note that cause Lund is pretty hilly,
-                      you kind to have to know that it can be pretty tiring and
-                      it’s could be super cold in the winters :’) Bus rides are
+                      so <Emoji symbol="🙃" label="upside down smiley face" />{" "}
+                      Alternatives are probably taxis which are SUPA expensive
+                      in Sweden and biking!!! You can rent a bike as well but m
+                      not too sure about the bike prices. For bikes, it’s
+                      important to note that cause Lund is pretty hilly, you
+                      kind to have to know that it can be pretty tiring and it’s
+                      could be super cold in the winters :’) Bus rides are
                       usually arnd $3sgd per trip and they are rather
                       convenient! They come quite often too so its easy to get
                       around.

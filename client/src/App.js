@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
+import MappingPlanner from "./components/MappingPlanner/MappingPlanner";
 import Resources from "./components/SchoolReviews/Resources";
 //Canada
 import HECMontreal from "./components/SchoolReviews/Canada/HECMontreal/HECMontreal";
@@ -38,6 +39,7 @@ class App extends Component {
         <BrowserRouter>
           <Header />
           <Route path="/" exact component={Home} />
+          <Route path="/MappingPlanner" exact component={MappingPlanner} />
           <Route path="/SchoolReviews" exact component={Resources} />
           <Route path="/SchoolReviews/UMich" exact component={UMich} />
           <Route
@@ -75,7 +77,6 @@ class App extends Component {
           <Route path="/SchoolReviews/York" exact component={York} />
           <Route path="/SchoolReviews/Queens" exact component={Queens} />
           <Route path="/Ask" component={AppAsk} />
-
           <Footer />
         </BrowserRouter>
       </div>

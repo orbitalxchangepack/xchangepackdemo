@@ -1,4 +1,5 @@
 import SchoolReviews from "../../SchoolReviews";
+import Emoji from "../../Emoji";
 import React, { Component } from "react";
 import { Grid, Container, Image } from "semantic-ui-react";
 import "../../SchoolContent.css";
@@ -126,9 +127,11 @@ class UNSWSydney extends Component {
                     <p className="content">
                       Travelling around is not cheap, and there is no student
                       fare for UNSW students! Only the USYD students has a 50%
-                      student fare 🙁 One trip to city (~40 min bus ride) is
-                      about $4? But there’s a fare cap of $2.40 on Sundays so we
-                      travel like crazy on Sundays.
+                      student fare
+                      <Emoji symbol="🙁" label="unimpressed face" />
+                      One trip to city (~40 min bus ride) is about $4? But
+                      there’s a fare cap of $2.40 on Sundays so we travel like
+                      crazy on Sundays.
                     </p>
                     <p className="content">
                       Alternatives: 1. Walk (Sydney weather is cool and windy
