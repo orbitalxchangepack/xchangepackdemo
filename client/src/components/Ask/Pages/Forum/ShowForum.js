@@ -5,6 +5,8 @@ import axios from "axios";
 import List from "@material-ui/core/List";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItem from "@material-ui/core/ListItem";
+
+
 export default function ShowForum() {
   const history = useHistory();
   const { id } = useParams();
@@ -12,19 +14,18 @@ export default function ShowForum() {
   const [forum, setForum] = useState(null);
   const [threads, setThreads] = useState([]);
   useEffect(() => {
+    const getForum = async () => {
+      const response = await axios.get("/api/forum/" + id);
+      setForum(response.data);
+    };
     getForum();
+    const getThreads = async () => {
+      const response = await axios.get("/api/thread/forum/" + id);
+      setThreads(response.data);
+    };
+
     getThreads();
   }, []);
-
-  const getForum = async () => {
-    const response = await axios.get("/api/forum/" + id);
-    setForum(response.data);
-  };
-
-  const getThreads = async () => {
-    const response = await axios.get("/api/thread/forum/" + id);
-    setThreads(response.data);
-  };
 
   return (
     <div style={{ padding: "2rem" }}>
