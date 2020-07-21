@@ -27,7 +27,7 @@ export default function App() {
 
   const columns = data[0] && Object.keys(data[0]);
   return (
-    <div className="wrapping">
+    <div>
       <div>
         <input type="text" value={q} onChange={(e) => setQ(e.target.value)} />
         {columns &&
