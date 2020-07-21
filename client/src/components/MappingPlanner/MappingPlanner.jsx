@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "./MappingPlanner.css";
+import edurecdata from "./dataraw/json/EdurecSEP_raw.json";
 import Datatable from "./datatable";
 
 require("es6-promise").polyfill();
 require("isomorphic-fetch");
 
-export default function App() {
+export default function MappingPlanner() {
   const [data, setData] = useState([]);
   const [q, setQ] = useState("");
-  const [searchColumns, setSearchColumns] = useState(["firstName", "lastName"]);
+  const [searchColumns, setSearchColumns] = useState(["School_ID"]);
 
   useEffect(() => {
-    fetch("https://devmentor.live/api/examples/contacts?api_key=b7c58b")
-      .then((response) => response.json())
-      .then((json) => setData(json));
+    setData(edurecdata);
   }, []);
 
   function search(rows) {

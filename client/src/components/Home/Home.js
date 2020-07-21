@@ -5,7 +5,10 @@ const home = (props) => (
   <main className="Home">
     <div className="Home__content">
       <div className="Home__logo">
-        <img src={process.env.PUBLIC_URL + "/XCPhomepage.png"}></img>
+        <img
+          src={process.env.PUBLIC_URL + "/XCPhomepage.png"}
+          alt="X Change Pack Logo"
+        ></img>
       </div>
       <div className="Home__text">
         <br />
