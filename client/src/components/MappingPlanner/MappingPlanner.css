@@ -35,9 +35,20 @@ table tr:nth-child(even) {
 
 input[type="text"] {
   padding: 8px 4px;
-  min-width: 200px;
+  min-width: 300px;
 }
 
 label {
   margin-right: 2rem;
+}
+
+.input_box {
+  margin: auto;
+  width: 25%;
+}
+
+.MappingPlanner_title {
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
 }

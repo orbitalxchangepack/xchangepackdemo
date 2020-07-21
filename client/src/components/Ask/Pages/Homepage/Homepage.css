@@ -3,17 +3,17 @@
   background-color: white;
 }
 
-.Homepage__logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
 .Homepage__content {
   padding-top: 11%;
   padding-bottom: 14%;
   min-height: 500px;
+}
+
+.Homepage__logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 .Homepage__text {

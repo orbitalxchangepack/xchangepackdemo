@@ -35,11 +35,17 @@ export default function MappingPlanner() {
             <Grid.Row style={{ background: "#f7f7f7ff" }}>
               <div>
                 <br />
-                <input
-                  type="text"
-                  value={q}
-                  onChange={(e) => setQ(e.target.value)}
-                />
+                <h2 className="MappingPlanner_title">
+                  Pre-approved Mapping List
+                </h2>
+                <br />
+                <div className="input_box">
+                  <input
+                    type="text"
+                    value={q}
+                    onChange={(e) => setQ(e.target.value)}
+                  />
+                </div>
                 <br />
                 <br />
                 {columns &&
