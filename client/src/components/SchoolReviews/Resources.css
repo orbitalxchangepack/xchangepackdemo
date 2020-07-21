@@ -6,15 +6,27 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.card {
-  padding-top: 2%;
-  padding-bottom: 20px;
+.subHeading {
+  text-align: center;
+}
+
+.details {
+  text-align: center;
+}
+
+.insta {
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .content_about {
   text-align: center;
-  color: #769db1;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2%;
+}
+
+.about_container {
+  padding-top: 10%;
+  padding-bottom: 10%;
 }

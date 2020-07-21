@@ -18,11 +18,11 @@ table tr {
 }
 
 table tr th {
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid lightgrey;
-  background: #f6f6f7;
+  background: #5e6d8a;
+  color: white;
   padding: 16px 0;
-  font-family: "AirbnbCerealBold";
 }
 
 table tr td {
@@ -30,7 +30,7 @@ table tr td {
 }
 
 table tr:nth-child(even) {
-  background: #f6f6f7;
+  background: #d2d8e3;
 }
 
 input[type="text"] {

@@ -16,27 +16,27 @@ export default class header extends Component {
           <ul>
             <li className="link__wrapper">
               <NavLink exact activeClassName="active" to="/">
-                Home
+                <div className="navbar">HOME</div>
               </NavLink>
             </li>
             <li className="link__wrapper">
               <NavLink activeClassName="active" to="/SchoolReviews">
-                School Reviews
+                <div className="navbar">School Reviews</div>
               </NavLink>
             </li>
             <li className="link__wrapper">
               <NavLink activeClassName="active" to="/MappingPlanner">
-                Mapping Planner
+                <div className="navbar">Mapping Planner</div>
               </NavLink>
             </li>
             <li className="link__wrapper">
               <NavLink activeClassName="active" to="/Backpack">
-                Backpack
+                <div className="navbar">Backpack</div>
               </NavLink>
             </li>
             <li className="link__wrapper">
               <NavLink activeClassName="active" to="/Ask">
-                Ask!
+                <div className="navbar">Ask!</div>
               </NavLink>
             </li>
           </ul>

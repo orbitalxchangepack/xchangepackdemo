@@ -55,12 +55,12 @@ class Monash extends Component {
                   </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                  <Grid.Column width={8}>
+                  <Grid.Column>
                     <h2 className="subtitle_center">Modules offered</h2>
                     <h4 className="subsubtitle_center">
                       Strategic Management, FIN, MKT, etc.
                     </h4>
-                    <p className="content">
+                    <p className="content_center">
                       I mapped Strategic management, 2 fin and 1 mkt mod.
                     </p>
                   </Grid.Column>
