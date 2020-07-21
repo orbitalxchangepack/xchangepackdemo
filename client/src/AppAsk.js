@@ -9,7 +9,7 @@ import {
 import axios from "axios";
 import Navbar from "./components/Ask/Components/Navbar";
 
-import Home from "./components/Home/Home";
+import Homepage from "./components/Ask/Pages/Homepage/Homepage";
 import Login from "./components/Ask/Pages/Auth/Login";
 import Register from "./components/Ask/Pages/Auth/Register";
 import CreateCategory from "./components/Ask/Pages/Category/CreateCategory";
@@ -48,7 +48,7 @@ function AppAsk() {
           <Router>
             <Navbar />
             <Switch>
-              <Route path="/Ask" exact component={Home} />
+              <Route path="/Ask" exact component={Homepage} />
               <Route path="/auth/login">
                 {!user ? <Login /> : <Redirect to="/" />}
               </Route>

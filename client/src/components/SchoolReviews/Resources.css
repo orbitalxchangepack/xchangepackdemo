@@ -1,13 +1,19 @@
-.Heading {
+.credits_title {
+  color: #5e6d8a;
+  text-align: center;
+}
+
+.credits_Heading {
   padding-top: 10px;
   text-align: center;
-  color: #769db1;
+  color: #5e6d8a;
   font-weight: lighter;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.subHeading {
+.credits_subHeading {
   text-align: center;
+  color: #8791a2;
 }
 
 .details {
@@ -19,11 +25,18 @@
   padding-right: 2%;
 }
 
+.about_title {
+  color: white;
+
+  text-align: center;
+}
+
 .content_about {
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2%;
+  color: white;
 }
 
 .about_container {

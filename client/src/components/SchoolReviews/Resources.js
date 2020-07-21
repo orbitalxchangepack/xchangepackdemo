@@ -7,7 +7,7 @@ import "./Resources.css";
 class Resources extends Component {
   render() {
     return (
-      <div>
+      <div style={{ background: "#838ea4" }}>
         <Grid>
           <Grid.Column
             width={3}
@@ -21,9 +21,9 @@ class Resources extends Component {
             width={13}
           >
             <Grid divided columns={3}>
-              <Grid.Column width={10}>
+              <Grid.Column width={10} style={{ background: "#838ea4" }}>
                 <div className="about_container">
-                  <h1 className="title">About</h1>
+                  <h1 className="about_title">About</h1>
                   <p className="content_about">
                     Navigate through the side bar to read up on students'
                     reviews on their SEP exchanges to different schools!
@@ -51,22 +51,28 @@ class Resources extends Component {
                     Do headover to his website on the right if you want to read
                     up on other SEP school locations! Or you can click on this
                     link{" "}
-                    <a href="https://dhongtravels.com/">
+                    <a
+                      style={{ color: "#c3edfb" }}
+                      href="https://dhongtravels.com/"
+                    >
                       https://dhongtravels.com/
                     </a>
                   </p>
                 </div>
               </Grid.Column>
-              <Grid.Column width={5}>
+              <Grid.Column width={5} style={{ background: "white" }}>
                 <div className="credits">
-                  <h1 className="title">Credits</h1>
+                  <h1 className="credits_title">Credits</h1>
                   <Container>
-                    <h2 className="Heading">Daryl Hong</h2>
-                    <p className="subHeading">
+                    <h2 className="credits_Heading">Daryl Hong</h2>
+                    <p className="credits_subHeading">
                       creator of blog containing SEP travels
                     </p>
                     <div className="details">
-                      <a href="https://dhongtravels.com/">
+                      <a
+                        style={{ color: "#6fa4d7" }}
+                        href="https://dhongtravels.com/"
+                      >
                         https://dhongtravels.com/
                       </a>
                     </div>

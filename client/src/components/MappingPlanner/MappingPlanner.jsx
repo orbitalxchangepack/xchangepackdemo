@@ -32,7 +32,7 @@ export default function MappingPlanner() {
       <Grid.Column width={14}>
         <div>
           <Grid celled>
-            <Grid.Row>
+            <Grid.Row style={{ background: "#f7f7f7ff" }}>
               <div>
                 <br />
                 <input
