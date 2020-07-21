@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-import MappingPlanner from "./components/MappingPlanner/MappingPlanner";
+import MappingPlanner from "./components/MappingPlanner/MappingPlanner.jsx";
 import Resources from "./components/SchoolReviews/Resources";
 //Canada
 import HECMontreal from "./components/SchoolReviews/Canada/HECMontreal/HECMontreal";
