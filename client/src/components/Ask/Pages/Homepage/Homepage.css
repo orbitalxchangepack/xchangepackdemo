@@ -1,11 +1,10 @@
 .Homepage {
   display: block;
-  background-color: white;
 }
 
 .Homepage__content {
-  padding-top: 11%;
-  padding-bottom: 14%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   min-height: 500px;
 }
 

@@ -1,3 +1,7 @@
+.background {
+  background-image: url(./XCPbackground.png);
+}
+
 html,
 body {
   width: 100%;
@@ -31,6 +35,10 @@ table tr td {
 
 table tr:nth-child(even) {
   background: #d2d8e3;
+}
+
+table tr:nth-child(odd) {
+  background: white;
 }
 
 input[type="text"] {
