@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Container } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import Filter from "./Filter";
 import "./Backpack.css";
 
@@ -16,8 +16,8 @@ class Backpack extends Component {
           </p>
           <br />
           <p className="content_center">
-            Head over to the School Reviews tab if stated that a Review for your
-            specific schools are present!
+            Head over to the School Reviews tab if stated below that a review
+            for your chosen school is present!
           </p>
         </div>
         <Grid
