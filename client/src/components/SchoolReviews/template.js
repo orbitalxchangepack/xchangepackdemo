@@ -1,3 +1,5 @@
+/*Template used for layout of School Reviews pages*/
+
 import SchoolReviews from "../../SchoolReviews";
 import React, { Component } from "react";
 import { Grid, Container, Image, Table, Label } from "semantic-ui-react";

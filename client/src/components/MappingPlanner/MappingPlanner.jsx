@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./MappingPlanner.css";
-import edurecdata from "./dataraw/json/EdurecSEP_raw.json";
+import edurecdata from "../dataraw/json/EdurecSEP_raw.json";
 import Datatable from "./datatable";
 import { Grid, Container } from "semantic-ui-react";
 

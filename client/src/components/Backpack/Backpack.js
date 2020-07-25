@@ -1,13 +1,31 @@
 import React, { Component } from "react";
-import { Nav, Dropdown, Sidenav, Icon } from "rsuite";
-import { Link } from "react-router-dom";
-import "rsuite/dist/styles/rsuite-default.css";
+import { Grid, Container } from "semantic-ui-react";
+import Filter from "./Filter";
 import "./Backpack.css";
 
-class SchoolReviews extends Component {
+class Backpack extends Component {
   render() {
-    return <p>hi</p>;
+    return (
+      <div className="container">
+        <Grid
+          celled
+          divided
+          style={{ overflow: "auto", minHeight: "700px" }}
+          columns={3}
+        >
+          <Grid.Column>
+            <Filter />
+          </Grid.Column>
+          <Grid.Column>
+            <Filter />
+          </Grid.Column>
+          <Grid.Column>
+            <Filter />
+          </Grid.Column>
+        </Grid>
+      </div>
+    );
   }
 }
 
-export default SchoolReviews;
+export default Backpack;
