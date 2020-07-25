@@ -7,7 +7,7 @@ class Backpack extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="backpack_container">
           <h2 className="subtitle_center" style={{ color: "white" }}>
             Select PU from Dropdown Lists
           </h2>
