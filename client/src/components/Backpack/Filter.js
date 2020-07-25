@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Table, Label } from "semantic-ui-react";
 
 class Filter extends React.Component {
   constructor(props) {
@@ -58,8 +59,6 @@ class Filter extends React.Component {
           <br />
           <br />
           <label>
-            <h2 className="subtitle_center">Select PU from dropdown list</h2>
-
             <select
               value={this.state.School}
               onChange={this.handleChangeSchool}
@@ -74,8 +73,47 @@ class Filter extends React.Component {
           <input type="submit" value="Submit" />
           <div>
             {filterDropdown.map((School) => (
-              <div key={School.id} style={{ margin: "10px" }}>
-                {School.NUS_Module_Code}
+              <div key={School.School} style={{ margin: "10px" }}>
+                <Table celled>
+                  <Table.Body>
+                    <Table.Row>
+                      <Table.Cell>
+                        <Label ribbon>School Code</Label>
+                      </Table.Cell>
+                      <Table.Cell>{School.School_Code}</Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell>
+                        <Label ribbon>Location</Label>
+                      </Table.Cell>
+                      <Table.Cell>{School.Continent}</Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell>
+                        <Label ribbon>Semester Details</Label>
+                      </Table.Cell>
+                      <Table.Cell>{School.Semester_Details}</Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell>
+                        <Label ribbon>NUS Pre-approved Modules</Label>
+                      </Table.Cell>
+                      <Table.Cell>{School.NUS_Module_Code} </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell>
+                        <Label ribbon>School Site</Label>
+                      </Table.Cell>
+                      <Table.Cell>{School.School_Site} </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell>
+                        <Label ribbon>School Review?</Label>
+                      </Table.Cell>
+                      <Table.Cell>{School.School_Review} </Table.Cell>
+                    </Table.Row>
+                  </Table.Body>
+                </Table>
                 <br />
               </div>
             ))}

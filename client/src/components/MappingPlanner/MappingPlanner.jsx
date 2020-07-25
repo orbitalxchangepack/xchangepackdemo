@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./MappingPlanner.css";
 import edurecdata from "../dataraw/json/EdurecSEP_raw.json";
-import Datatable from "./datatable";
-import { Grid, Container } from "semantic-ui-react";
+import Datatable from "../datatable";
+import { Grid } from "semantic-ui-react";
 
 require("es6-promise").polyfill();
 require("isomorphic-fetch");
