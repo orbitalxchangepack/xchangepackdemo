@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Container } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import Filter from "./Filter";
 import "./Backpack.css";
 
