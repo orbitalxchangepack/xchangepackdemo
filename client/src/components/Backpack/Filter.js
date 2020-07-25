@@ -54,7 +54,12 @@ class Filter extends React.Component {
     });
 
     return (
-      <div>
+      <div
+        style={{
+          width: "100%",
+          overflowX: "scroll",
+        }}
+      >
         <form onSubmit={this.handleSubmitSchool}>
           <br />
           <br />
@@ -114,7 +119,6 @@ class Filter extends React.Component {
                     </Table.Row>
                   </Table.Body>
                 </Table>
-                <br />
               </div>
             ))}
           </div>
