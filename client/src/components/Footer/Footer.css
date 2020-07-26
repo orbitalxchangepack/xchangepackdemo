@@ -2,14 +2,15 @@
   color: #5e6d8a;
   background-color: #f7f7f7ff;
   position: relative;
-  padding-top: 1.5rem;
+  padding-top: 1.2rem;
   bottom: 0;
 }
 
 .footer__content {
-  height: 6rem;
+  height: 5rem;
   width: 100%;
   text-align: center;
+  position: relative;
 }
 
 .footer__text p {
