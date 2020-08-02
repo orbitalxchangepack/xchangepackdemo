@@ -18,7 +18,7 @@ export default class header extends Component {
               <NavLink exact activeClassName="active" to="/">
                 <img
                   className="navbar_logo"
-                  src="https://i.imgur.com/s6Hd4BU.png"
+                  src={process.env.PUBLIC_URL + "/home_logo.png"}
                   alt="home logo"
                   float="left"
                 ></img>
@@ -29,7 +29,7 @@ export default class header extends Component {
               <NavLink activeClassName="active" to="/SchoolReviews">
                 <img
                   className="navbar_logo"
-                  src="https://i.imgur.com/6XI8EZH.png"
+                  src={process.env.PUBLIC_URL + "/schoolreviews_logo.png"}
                   alt="home logo"
                   float="left"
                 ></img>
@@ -40,7 +40,7 @@ export default class header extends Component {
               <NavLink activeClassName="active" to="/MappingPlanner">
                 <img
                   className="navbar_logo"
-                  src="https://i.imgur.com/aWD4K4I.png"
+                  src={process.env.PUBLIC_URL + "/mappingplanner_logo.png"}
                   alt="home logo"
                   float="left"
                 ></img>
@@ -51,7 +51,7 @@ export default class header extends Component {
               <NavLink activeClassName="active" to="/Backpack">
                 <img
                   className="navbar_logo"
-                  src="https://i.imgur.com/Wo8ohhD.png"
+                  src={process.env.PUBLIC_URL + "/backpack_logo.png"}
                   alt="home logo"
                   float="left"
                 ></img>
@@ -62,7 +62,7 @@ export default class header extends Component {
               <NavLink activeClassName="active" to="/Ask">
                 <img
                   className="navbar_logo"
-                  src="https://i.imgur.com/A7x5vOA.png"
+                  src={process.env.PUBLIC_URL + "/askforum_logo.png"}
                   alt="home logo"
                   float="left"
                 ></img>

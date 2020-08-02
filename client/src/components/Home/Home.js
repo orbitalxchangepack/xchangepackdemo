@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
+import "./Home.css";
 
 const image1 = "https://i.imgur.com/hmnfQtT.png";
 const image2 = "https://i.imgur.com/18GruKj.png";
@@ -21,7 +22,7 @@ const inlineStyle2 = {
   color: "#fff",
   fontSize: "120%",
   left: "50%",
-  top: "57%",
+  top: "70%",
   position: "absolute",
   padding: "20px",
   transform: "translate(-50%, -50%)",
@@ -29,29 +30,9 @@ const inlineStyle2 = {
 
 const inlineStyle3 = {
   color: "#fff",
-  fontSize: "100%",
+  fontSize: "120%",
   left: "70%",
   top: "50%",
-  position: "absolute",
-  padding: "20px",
-  transform: "translate(-50%, -50%)",
-};
-
-const inlineStyle4 = {
-  color: "#fff",
-  fontSize: "120%",
-  left: "50%",
-  top: "69%",
-  position: "absolute",
-  padding: "20px",
-  transform: "translate(-50%, -50%)",
-};
-
-const inlineStyle5 = {
-  color: "#fff",
-  fontSize: "120%",
-  left: "70%",
-  top: "57%",
   position: "absolute",
   padding: "20px",
   transform: "translate(-50%, -50%)",
@@ -70,7 +51,7 @@ function home() {
         </div>
       </Parallax>
 
-      <h1>Our Motivation</h1>
+      <h1 className="divider">I</h1>
 
       <Parallax bgImage={image2} strength={300}>
         <div style={{ height: 500 }}>
@@ -85,7 +66,7 @@ function home() {
         </div>
       </Parallax>
 
-      <h1>|||</h1>
+      <h1 className="divider">II</h1>
 
       <Parallax bgImage={image3} strength={300}>
         <div style={{ height: 500 }}>
@@ -101,10 +82,10 @@ function home() {
           </div>
         </div>
       </Parallax>
-      <h1>|||</h1>
+      <h1 className="divider">III</h1>
       <Parallax bgImage={image4} strength={300}>
         <div style={{ height: 500 }}>
-          <div style={inlineStyle4}>
+          <div style={inlineStyle2}>
             Next we have the backpack function where you can drop schools you
             have currently shortlisted to compare their features side-by-side.
             You can search up to three schools, which will then generate similar
@@ -113,10 +94,10 @@ function home() {
           </div>
         </div>
       </Parallax>
-      <h1>|||</h1>
+      <h1 className="divider">IV</h1>
       <Parallax bgImage={image5} strength={300}>
         <div style={{ height: 500 }}>
-          <div style={inlineStyle5}>
+          <div style={inlineStyle3}>
             The Ask! Forum is where you can raise any other queries you have,
             and create posts or scroll through posts in different categories and
             threads! To use this feature, you simply have to create an account

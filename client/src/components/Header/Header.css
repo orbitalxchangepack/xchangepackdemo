@@ -80,7 +80,7 @@ li.link__wrapper a:hover {
 .navbar_logo {
   height: 30px;
   opacity: 70%;
-  filter: invert(100%);
+  filter: invert(1);
   padding-bottom: 0.3rem;
 }
 
@@ -93,5 +93,5 @@ li.link__wrapper > a.active {
 }
 
 li.link__wrapper > a.active .navbar_logo {
-  filter: invert(0%);
+  filter: invert(0);
 }
