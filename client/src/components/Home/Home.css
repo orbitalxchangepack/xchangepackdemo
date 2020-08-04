@@ -1,4 +1,71 @@
+@media only screen and (max-width: 55rem) {
+  .Home_logo img {
+    padding-top: 20%;
+  }
+}
+
+@media only screen and (max-width: 42rem) {
+  .Home_logo img {
+    padding-top: 50%;
+  }
+}
+
 .divider {
   font-weight: lighter;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+.Home_main {
+  display: block;
+}
+
+.Main_content {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.Main_logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.Main_text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.Main_question {
+  color: #cfe2f3;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+
+.Main_ans {
+  color: #ffffff;
+  padding-left: 0.5ch;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+
+.Home_body {
+  padding: 10%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+
+.Home_logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
