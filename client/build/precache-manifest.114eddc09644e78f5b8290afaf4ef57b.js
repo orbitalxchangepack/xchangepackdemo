@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c167233573e2cd6b84d479c0bd3d494b",
+    "revision": "f3ebd403bd791b137f61cf5e1956d5ae",
     "url": "/index.html"
   },
   {
-    "revision": "a65b8736fa3d005874d9",
+    "revision": "13a6f3c91e3dc833a8aa",
     "url": "/static/css/2.fd3fe366.chunk.css"
   },
   {
-    "revision": "a5b3df19be3f5acbfb64",
-    "url": "/static/css/main.e747ae06.chunk.css"
+    "revision": "d692f1399b5fb39c2191",
+    "url": "/static/css/main.764efe64.chunk.css"
   },
   {
-    "revision": "a65b8736fa3d005874d9",
-    "url": "/static/js/2.d980f8e2.chunk.js"
+    "revision": "13a6f3c91e3dc833a8aa",
+    "url": "/static/js/2.12878994.chunk.js"
   },
   {
     "revision": "5eda651bb4e216aab22888a7aeceeed6",
-    "url": "/static/js/2.d980f8e2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.12878994.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5b3df19be3f5acbfb64",
-    "url": "/static/js/main.c692dcd3.chunk.js"
+    "revision": "d692f1399b5fb39c2191",
+    "url": "/static/js/main.426c769a.chunk.js"
   },
   {
     "revision": "6f0234b4b87d585d06e8",
@@ -94,6 +94,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bdadc15a7cd84822a13081e847d8760c",
     "url": "/static/media/Copenhagen_pic8.bdadc15a.jpg"
+  },
+  {
+    "revision": "a866989e480114364038969ec00931db",
+    "url": "/static/media/Home_Ask.a866989e.png"
+  },
+  {
+    "revision": "7a3b5dbf804b5e056ed8eb48513bfd73",
+    "url": "/static/media/Home_Backpack.7a3b5dbf.png"
+  },
+  {
+    "revision": "a8ab6a83f9eedd9915fa7f029bb34af4",
+    "url": "/static/media/Home_MappingPlanner.a8ab6a83.png"
+  },
+  {
+    "revision": "1a666db557384726957eb8cc604b1d89",
+    "url": "/static/media/Home_SchoolReviews.1a666db5.png"
   },
   {
     "revision": "2dc6146ac5d4bc435e89c356f1c776dc",

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e747ae06.chunk.css",
-    "main.js": "/static/js/main.c692dcd3.chunk.js",
-    "main.js.map": "/static/js/main.c692dcd3.chunk.js.map",
+    "main.css": "/static/css/main.764efe64.chunk.css",
+    "main.js": "/static/js/main.426c769a.chunk.js",
+    "main.js.map": "/static/js/main.426c769a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cfae3202.js",
     "runtime-main.js.map": "/static/js/runtime-main.cfae3202.js.map",
     "static/css/2.fd3fe366.chunk.css": "/static/css/2.fd3fe366.chunk.css",
-    "static/js/2.d980f8e2.chunk.js": "/static/js/2.d980f8e2.chunk.js",
-    "static/js/2.d980f8e2.chunk.js.map": "/static/js/2.d980f8e2.chunk.js.map",
+    "static/js/2.12878994.chunk.js": "/static/js/2.12878994.chunk.js",
+    "static/js/2.12878994.chunk.js.map": "/static/js/2.12878994.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4a7224fca0da93dc5ac27d76633ce6b6.js": "/precache-manifest.4a7224fca0da93dc5ac27d76633ce6b6.js",
+    "precache-manifest.114eddc09644e78f5b8290afaf4ef57b.js": "/precache-manifest.114eddc09644e78f5b8290afaf4ef57b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fd3fe366.chunk.css.map": "/static/css/2.fd3fe366.chunk.css.map",
-    "static/css/main.e747ae06.chunk.css.map": "/static/css/main.e747ae06.chunk.css.map",
-    "static/js/2.d980f8e2.chunk.js.LICENSE.txt": "/static/js/2.d980f8e2.chunk.js.LICENSE.txt",
+    "static/css/main.764efe64.chunk.css.map": "/static/css/main.764efe64.chunk.css.map",
+    "static/js/2.12878994.chunk.js.LICENSE.txt": "/static/js/2.12878994.chunk.js.LICENSE.txt",
     "static/media/Aarhus_pic1.jpg": "/static/media/Aarhus_pic1.a3e10d2f.jpg",
     "static/media/Aarhus_pic2.jpg": "/static/media/Aarhus_pic2.1521f9e8.jpg",
     "static/media/Aarhus_pic3.jpg": "/static/media/Aarhus_pic3.a5c0222c.jpg",
@@ -31,6 +31,10 @@
     "static/media/Copenhagen_pic6.jpg": "/static/media/Copenhagen_pic6.90730ea2.jpg",
     "static/media/Copenhagen_pic7.jpg": "/static/media/Copenhagen_pic7.10819cd8.jpg",
     "static/media/Copenhagen_pic8.jpg": "/static/media/Copenhagen_pic8.bdadc15a.jpg",
+    "static/media/Home_Ask.png": "/static/media/Home_Ask.a866989e.png",
+    "static/media/Home_Backpack.png": "/static/media/Home_Backpack.7a3b5dbf.png",
+    "static/media/Home_MappingPlanner.png": "/static/media/Home_MappingPlanner.a8ab6a83.png",
+    "static/media/Home_SchoolReviews.png": "/static/media/Home_SchoolReviews.1a666db5.png",
     "static/media/Korea_pic1.jpg": "/static/media/Korea_pic1.2dc6146a.jpg",
     "static/media/Korea_pic2.jpg": "/static/media/Korea_pic2.3c451d66.jpg",
     "static/media/Korea_pic3.jpg": "/static/media/Korea_pic3.bb07f7d0.jpg",
@@ -83,8 +87,8 @@
   "entrypoints": [
     "static/js/runtime-main.cfae3202.js",
     "static/css/2.fd3fe366.chunk.css",
-    "static/js/2.d980f8e2.chunk.js",
-    "static/css/main.e747ae06.chunk.css",
-    "static/js/main.c692dcd3.chunk.js"
+    "static/js/2.12878994.chunk.js",
+    "static/css/main.764efe64.chunk.css",
+    "static/js/main.426c769a.chunk.js"
   ]
 }

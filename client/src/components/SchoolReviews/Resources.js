@@ -15,11 +15,7 @@ class Resources extends Component {
           >
             <SchoolReviews />
           </Grid.Column>
-          <Grid.Column
-            style={{ overflow: "auto", maxHeight: "700px" }}
-            stretched
-            width={13}
-          >
+          <Grid.Column style={{ overflow: "auto" }} stretched width={13}>
             <Grid divided columns={3}>
               <Grid.Column width={10} style={{ background: "#838ea4" }}>
                 <div className="about_container">

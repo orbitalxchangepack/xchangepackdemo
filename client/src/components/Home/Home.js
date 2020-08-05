@@ -7,7 +7,7 @@ import Backpack from "./Backpack";
 import Ask from "./Ask";
 
 const home = (props) => (
-  <div style={{ overflow: "auto", maxHeight: "1000px" }}>
+  <div>
     <Main />
     <SchoolReview />
     <MappingPlanner />

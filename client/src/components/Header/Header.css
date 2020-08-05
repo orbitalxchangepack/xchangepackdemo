@@ -1,8 +1,9 @@
-@media only screen and (max-width: 50rem) {
+@media only screen and (max-width: 55rem) {
   .navbar {
     visibility: hidden;
     font-size: 0px;
     padding-left: 0;
+    display: none;
   }
 }
 
@@ -60,7 +61,7 @@
 }
 
 li.link__wrapper a:hover .navbar_logo {
-  filter: invert(0%);
+  filter: invert(100%);
 }
 
 li.link__wrapper a:hover {
@@ -79,8 +80,7 @@ li.link__wrapper a:hover {
 
 .navbar_logo {
   height: 30px;
-  opacity: 70%;
-  filter: invert(1);
+  filter: invert(20%);
   padding-bottom: 0.3rem;
 }
 
@@ -93,5 +93,5 @@ li.link__wrapper > a.active {
 }
 
 li.link__wrapper > a.active .navbar_logo {
-  filter: invert(0);
+  filter: invert(100%);
 }
